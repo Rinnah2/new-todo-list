@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: flex-start; /* Start from top */
+  height: 100vh;
+  background-color: #F5F5F5; /* Light grey background */
+  padding-top: 50px;
+}
+
+
+.ToDoList__header {
+  display: flex;
+  align-items: center; /* Vertically centers button and text */
+  margin-bottom: 20px;
+}
+
+
+.Title {
+  font-size: 24px;
+  margin-right: 60px;
+  flex-grow : 1;
+  text-align: center;
+}
+
+
+.ToDoList {
+  margin-top: 100px;
+  margin-left: 50px;
+  gap: 10px;
+  width: 25%;
+  height: 100%;
+  background-color: #F5F5F5;
+  border:5px solid white;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right:10px;
+}
+
+.addTask {
+  background-color: #e4e4fa;
+  width: 98%;
+  height: 50px;
+  border-radius: 10px;
+  border-color: blue;
+  color: blue;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+
+.searchSection {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Back {
+  border-color: #FFFFFF;
+  border-style: hidden;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.searchBar {
+  width: 78%;
+  height: 35px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-color: #FFFFFF;
+  border-style: hidden;
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+.filter {
+  height: 59px;
+  width: 60px;
+  padding: 1px 15px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border-style: hidden;
+  border-color: #f4f7f6;
+  border-radius: 10px;
+
+}
+
+.taskList {
+  list-style-type: none; /* Removes the bullet points */
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 350px;
+
+
+
+
+}
+
+.task{
+  background-color: #FFFFFF;
+  height: 70px;
+  width: 127%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  padding-bottom:10px
+
+}
+
+
+.kebab-menu {
+  margin: auto;
+  border-style: hidden;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.task-list-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+.task-list-item__icons{
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 12px;
+}
