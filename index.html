@@ -22,6 +22,25 @@
   </div>
   <div >
     <button class="addTask">+ Add Task</button>
+    <div id="dialogueBox" class="hidden">
+      <h3>Enter Information</h3>
+      <input type="text" placeholder="Enter Task">
+      <select id="categorySelect">
+        <option value="">Select Category</option>
+        <option value="Work"> 💼Work</option>
+        <option value="Personal">Personal</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Health">Health</option>
+      </select>
+
+      <select id="prioritySelect">
+        <option value="">Select Priority</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <button id="submitBtn">Submit</button>
+    </div>
   </div>
   <div class="searchSection">
     <input class="searchBar " placeholder="Search Task" title="searchBar" type="text">
@@ -76,7 +95,7 @@
         <div class="flex task-list-item">
           <div class=" task-list-item__container">
             <div class="task-title">
-              <input type="checkbox" title="Task List Item Checkbox"/>Review Yesterdays Note
+              <label for="task-2"> <input type="checkbox" id="task-2"> Review Yesterdays Note</label>
             </div>
 
 
@@ -111,6 +130,6 @@
 
 </div>
 
-
+<script src="index.js"></script>
 </body>
 </html>
